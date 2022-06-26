@@ -19,7 +19,7 @@ export const registerUserAction = createAsyncThunk(
     //http call
     try {
       const { data } = await axios.post(
-        `http://alihassam1.herokuapp.com/api/users/register`,
+        `https://alihassam1.herokuapp.com/api/users/register`,
         user,
         config
       );
